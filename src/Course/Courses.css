@@ -1,0 +1,22 @@
+#childd {
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 6px 9px 2px black;
+    border-top: #BB2C31 2px groove;
+    border-left: #BB2C31 2px groove;
+}
+
+#icon3 {
+    font-size: 40px;
+    padding: 10px;
+    color: #BB2C31;
+}
+
+#text5 {
+    color: gray;
+}
+ 
+#parentt {
+    display: flex;
+    justify-content: center;
+} 

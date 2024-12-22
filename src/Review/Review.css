@@ -1,0 +1,60 @@
+#image6 {
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 80px;
+    position: relative;
+    top: 10px;
+}
+
+#divv {
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#span1 {
+    background-color: black;
+    height: 30px;
+    text-align: start;
+border-top-left-radius: 17px;
+border-top-right-radius: 17px;
+    padding-left: 2px;
+}
+
+#icon6 {
+    margin-left: 10px;
+    padding: 2px;
+    color: orange;
+}
+
+#icon66 {
+    padding: 2px;
+    color: orangered;
+}
+
+#icon666 {
+    padding: 2px;
+    color: white;
+}
+
+#All {
+    display: flex;
+    justify-content: center;
+}
+
+/* #info2 {
+    position: relative;
+    bottom: 35px;
+} */
+
+/* #text2 {
+    position: relative;
+    bottom: 30px;
+} */
+
+/* .groub_icon {
+    position: relative;
+    bottom: 30px;
+} */

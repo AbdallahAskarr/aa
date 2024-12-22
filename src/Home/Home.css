@@ -1,0 +1,36 @@
+#home {
+    width: 100%;
+    background: linear-gradient(rgba(198, 59, 250, .2), rgba(198, 59, 250, 255)), url(school-supplies-3033204_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    filter: contrast(1.2);
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: -1%;
+    border-top: 60vh solid #fff;
+    width: 116%;
+    transform: translatex(-40px);
+    border-radius: 50%;
+    z-index: -1;
+}
+.head1{
+    margin-top: 22px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+#text1{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}

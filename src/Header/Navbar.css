@@ -1,0 +1,28 @@
+.nav-link:hover {
+    color: #e0bc00;
+
+}
+
+.nav-link {
+    color: red;
+
+}
+
+#a {
+    font-weight: 600;
+}
+
+#btn {
+    background-color: #ffd32c;
+    color: black;
+    border: none;
+}
+
+#btn:hover {
+    background-color: #ffea99;
+}
+
+#logo {
+    font-weight: 600;
+    font-family: serif;
+}
