@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/aa/static/css/main.7145d067.css",
+    "main.js": "/aa/static/js/main.d03dd7ec.js",
+    "static/media/fa-solid-900.ttf": "/aa/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/woman-3567600_1280.jpg": "/aa/static/media/woman-3567600_1280.db5e03f2ae92f88cb4a1.jpg",
+    "static/media/Learning languages-cuate.png": "/aa/static/media/Learning languages-cuate.5f42259869f3132cb0de.png",
+    "static/media/Mobile Marketing-bro.png": "/aa/static/media/Mobile Marketing-bro.6f34906c2355f5dfa437.png",
+    "static/media/fa-brands-400.ttf": "/aa/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/aa/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/aa/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/woman-3116587_640.jpg": "/aa/static/media/woman-3116587_640.404d9eccf57c6e584d5c.jpg",
+    "static/media/school-supplies-3033204_1280.webp": "/aa/static/media/school-supplies-3033204_1280.fc6d254c98297d621408.webp",
+    "static/media/woman-7165664_640.jpg": "/aa/static/media/woman-7165664_640.55a638ff7dae65f64034.jpg",
+    "static/media/fa-regular-400.ttf": "/aa/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/woman-4570763_640.jpg": "/aa/static/media/woman-4570763_640.12b87c8f2bf21275dc6f.jpg",
+    "static/media/fashion-6364998_640.jpg": "/aa/static/media/fashion-6364998_640.d0a3e9dbf62e38f7e610.jpg",
+    "static/media/ai-generated-9010550_640.webp": "/aa/static/media/ai-generated-9010550_640.fac70bf4ccbdb34ce456.webp",
+    "static/media/fa-regular-400.woff2": "/aa/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/woman-8451051_640.webp": "/aa/static/media/woman-8451051_640.70de0dc3b63c23028365.webp",
+    "static/media/fa-v4compatibility.ttf": "/aa/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/aa/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/logo.svg": "/aa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/aa/index.html",
+    "main.7145d067.css.map": "/aa/static/css/main.7145d067.css.map",
+    "main.d03dd7ec.js.map": "/aa/static/js/main.d03dd7ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7145d067.css",
+    "static/js/main.d03dd7ec.js"
+  ]
+}
