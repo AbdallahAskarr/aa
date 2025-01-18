@@ -1,9 +1,12 @@
 import "./Courses.css";
-
+import { motion } from "framer-motion";
 export default function Course() {
     return (
-        <>
-            <section className="container-fluid  p-3 " >
+        <motion.div
+            initial={{ opacity: 0, scale: "0" }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 2 }}>
+            <section  id="cour" className="container-fluid  p-3 " >
                 <section className="container  p-4 " >
 
 
@@ -17,6 +20,7 @@ export default function Course() {
                             <i id="icon3" class="fa-brands fa-html5"></i>
                             <i class="fa-solid fa-quote-right"></i>
                             <h4>Html 5</h4>
+
                             <p id="text5" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minima.</p>
                         </div>
 
@@ -60,7 +64,7 @@ export default function Course() {
 
                         <div id="childd" className="col-md-3 col-12  m-2  "  >
                             <i style={{ position: "relative", bottom: "23px" }} class="fa-solid fa-quote-left"></i>
-                            <i id="icon3"  class="fa-solid fa-paintbrush"></i>
+                            <i id="icon3" class="fa-solid fa-paintbrush"></i>
                             <i class="fa-solid fa-quote-right"></i>
                             <h4>Graphic Design</h4>
                             <p id="text5" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minima.</p>
@@ -82,6 +86,6 @@ export default function Course() {
                 </section>
             </section>
 
-        </>
+        </motion.div>
     )
 }

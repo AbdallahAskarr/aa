@@ -13,25 +13,25 @@ export default function Nav() {
                     <div class="collapse navbar-collapse  " id="navbarSupportedContent">
                         <ul class="navbar-nav me-0 mb-2   ms-auto mb-lg-0 ">
                             <li style={{ paddingLeft: "10px" }} class="nav-item text-start">
-                                <a id="a" class="nav-link " aria-current="page" href="#parent">Home</a>
+                                <a id="a" class="nav-link " aria-current="page" href="#home">Home</a>
                             </li>
                             <li style={{ paddingLeft: "10px" }} class="nav-item text-start ">
-                                <a id="a" class="nav-link" href="#special">About</a>
+                                <a id="a" class="nav-link" href="#abou">About</a>
                             </li>
 
                             <li style={{ paddingLeft: "10px" }} class="nav-item text-start">
-                                <a id="a" class="nav-link" href="#parent_two">Teacher</a>
+                                <a id="a" class="nav-link" href="#tea">Teacher</a>
                             </li>
 
                             <li style={{ paddingLeft: "10px" }} class="nav-item text-start">
-                                <a id="a" class="nav-link" href="#menuu">Course</a>
+                                <a id="a" class="nav-link" href="#cour">Course</a>
                             </li>
 
                             <li style={{ paddingLeft: "10px" }} class="nav-item text-start">
-                                <a id="a" class="nav-link" href="#team">Review</a>
+                                <a id="a" class="nav-link" href="#rev">Review</a>
                             </li>
                             <li style={{ paddingLeft: "10px" }} class="nav-item text-start">
-                                <a id="a" class="nav-link" href="#team">Contact</a>
+                                <a id="a" class="nav-link" href="#con   ">Contact</a>
                             </li>
 
                         </ul>

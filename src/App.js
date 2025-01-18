@@ -6,6 +6,8 @@ import { About } from './About/About';
 import { Team } from './Team/Team';
 import Course from './Course/Courses';
 import Rev from './Review/Review';
+import Contact from './Contact/Contact';
+import Foo from './Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Team />
       <Course />
       <Rev />
+      <Contact />
+      <Foo />
     </div>
   );
 }

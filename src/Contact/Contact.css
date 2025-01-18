@@ -1,0 +1,36 @@
+#end_image {
+    width: 100%;
+}
+
+#end_child {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    display: block;
+    margin: 10px;
+    width: 220px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#form1 {
+    margin: 0 auto;
+
+}
+
+textarea {
+    width: 220px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
+
+

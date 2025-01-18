@@ -1,0 +1,11 @@
+.ii{
+    margin: 5px;
+}
+#ico{
+    margin: 5px;
+    border: 2px solid red;
+    width: 32px;
+    height: 32px;
+    border-radius: 70%;
+    padding-top: 5px;
+}

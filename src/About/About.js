@@ -1,8 +1,13 @@
+import { motion } from "framer-motion";
 import "./About.css";
 const About = () => {
     return (
-        <>
-            <section style={{ marginTop: "10px" }} className="container ">
+        <motion.div
+        initial={{opacity:0,translateX:"-100%"}}
+        whileInView={{opacity:1,translateX:0}}
+        transition={{duration:2}}
+        >
+            <section id="abou"  style={{ marginTop: "10px" }} className="container ">
                 <h2 style={{ color: "#BB2C31" }} >About ? </h2>
                 <h4 style={{ color: "gray" }} >Start Your Journey With Us .</h4>
                 <br />
@@ -19,7 +24,7 @@ const About = () => {
                 </div>
             </section>
 
-        </>
+        </motion.div>
 
     )
 }

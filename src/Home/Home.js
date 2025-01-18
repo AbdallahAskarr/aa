@@ -1,4 +1,5 @@
 
+import { motion } from "framer-motion";
 import "./Home.css";
 
 import Boot from '../Aha/Boot';
@@ -6,7 +7,13 @@ import Boot from '../Aha/Boot';
 import Nav from "../Header/Navbar";
 export default function Home() {
     return (
-        <>
+
+        <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 2 }}
+        >
+
 
 
             <section id="home" className="container-fluid col">
@@ -15,7 +22,7 @@ export default function Home() {
                 <p id="text1" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, minima. <br />
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.. </p>
 
-                <button style={{ border: "none", borderRadius: "10px"}} className="btn btn-danger">Discover More</button>
+                <button style={{ border: "none", borderRadius: "10px" }} className="btn btn-danger">Discover More</button>
 
                 <br />
                 <br />
@@ -27,14 +34,15 @@ export default function Home() {
 
 
                 <Boot />
-            
+
 
 
 
 
             </section>
 
-        </>
+
+        </motion.div>
 
 
     )

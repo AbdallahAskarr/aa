@@ -1,13 +1,20 @@
+import { motion } from "framer-motion";
 import "./Team.css";
 const Team = () => {
     return (
-        <>
-            <section style={{ marginTop: "45px" }} className="container-fluid  " >
+        <motion.div
+            initial={{ opacity: 0, rotateX: "90deg" }}
+            whileInView={{ opacity: 1, rotateX: 0 }}
+            transition={{ duration: 2 }}
+        >
+            <section style={{ marginTop: "45px" }} className="container-fluid  " id="tea" >
                 <section className="container" >
                     <h2 style={{ color: "#BB2C31", paddingTop: "40px" }} >Our Teacher </h2>
                     <h4 style={{ color: "gray" }} >Meet Professional Trainers</h4>
 
                     <div id="sec" className="row" >
+
+
 
                         <div className="col-md-3 p-4 col-12">
                             <div id="as" className="card" >
@@ -82,7 +89,7 @@ const Team = () => {
                     </div>
                 </section>
             </section>
-        </>
+        </motion.div>
     )
 }
 export { Team };
